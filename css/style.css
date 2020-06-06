@@ -1,0 +1,98 @@
+.navbar {
+    background-color: chocolate !important;
+    font-weight: bolder !important;
+    color: whitesmoke !important;
+}
+.dropdown-menu {
+    background-color: chocolate !important;
+    font-weight: bold !important;
+}
+
+
+.dropdown-item {
+    font-weight: bold !important;
+}
+.fa-shopping-cart {
+    font-size: 25px !important;
+}
+.fa-truck, .fa-thumbs-up, .fa-comments {
+    font-size: 60px !important;
+    margin-right: 10px;
+    color: chocolate !important;
+}
+h3 {
+    color: chocolate;
+}
+.card1, .card2, .card3 {
+    display: flex;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.cardmain {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+    .card1, .card2, .card3 {
+        width: 100%;
+    }
+  }
+.newarrivals {
+    margin-top: 50px;
+}  
+.btn-primary {
+    background-color: chocolate;
+    width: 100%;
+}
+.card-text {
+    font-weight: bolder;
+}
+.card {
+    height: 460px !important;
+    width: 300px !important;
+}
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: chocolate;
+    text-decoration: underline;
+    margin: 20px;
+    
+}
+
+.footer{
+    background: chocolate;
+    color: whitesmoke;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: whitesmoke;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:whitesmoke;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
